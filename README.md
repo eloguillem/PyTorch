@@ -36,13 +36,7 @@ conda activate pytorch_p37
 
 ```shell=bash
 conda update conda
-conda env create -n pytorch_p37 python=3.6
+conda create -n pytorch_p37 python=3.6
 conda activate pytorch_p37
-conda install numpy
-conda install pandas
-conda install matplotlib
-conda install scikit-learn
-conda install tensorflow
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-jupyter notebook
+conda install numpy pandas matplotlib scikit-learn tensorflow pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch jupyter 
 ```
