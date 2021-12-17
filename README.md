@@ -1,5 +1,22 @@
 # PyTorch
 
+
+## Introduction
+
+This is a first introduction to getting to grips with pyTorch, it was presented at "les midis de la bidouille" at Inria Bordeaux.
+It is inspired by many tutorials including that of IBM for Harvard. 
+
+This tutorial is divided into two parts:
+
+   1. The creation of 1D and 2D tensors (multidimensional matrices
+      containing elements of the same data type in PyTorch),
+      access their content / index them, operations between tensors
+      (addition...).
+
+   2. Calculate the derivative of a tensor.
+
+
+## Informations to run the code
 To Run the notebooks you have to install torch and other libraries. 
 A way to do that is to create a conda environment to download the needed libraries and then run the notebook.
 
