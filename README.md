@@ -11,9 +11,9 @@ This tutorial is divided into two parts:
    1. The creation of 1D and 2D tensors (multidimensional matrices
       containing elements of the same data type in PyTorch),
       access their content / index them, operations between tensors
-      (addition...).
+      (addition...) : **tensor1D_2D.ipynb**
 
-   2. Calculate the derivative of a tensor.
+   2. Calculate the derivative of a tensor : **derivative.ipynb**
 
 
 ## Informations to run the code
