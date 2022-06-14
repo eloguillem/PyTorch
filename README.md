@@ -40,3 +40,17 @@ conda create -n pytorch_p37 python=3.6
 conda activate pytorch_p37
 conda install numpy pandas matplotlib scikit-learn tensorflow pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch jupyter 
 ```
+## Later add: to use Tensorboard
+Once the conda environment is activated, install tensorboard as followed.
+
+```shell=bash
+conda activate pytorch_p37
+conda install -y -c conda-forge tensorboard
+```
+When you are running the notebook if there is a problem when using tensorboard, uninstall it :
+
+```shell=bash
+pip uninstall tb-nightly tensorboardX tensorboard
+```
+
+and install it again.
